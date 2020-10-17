@@ -7,9 +7,9 @@ describe "conversions" do
       expect(grams).to eq(0.0)
     end
     
-    it 'given 10, returns 0.35274' do
+    it 'given 10, returns 283.495' do
       grams = ounces_to_grams(10)
-      expect(grams).to eq(0.35274)
+      expect(grams).to eq(283.495)
     end
   end
 end
